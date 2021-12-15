@@ -19,6 +19,7 @@ void Broker::operator++() {
 
 void Broker::print(){
   std::cout << "broker: " << _name << " number of accounts: " << _num_account
-            << " number of files: " << _num_files << " last date: " << _last_date
+            << " number of files: " << _num_files
+            << " last date: " << _last_date
             << std::endl;
 }
